@@ -2,11 +2,12 @@
     /* box-sizing: border-box; */
     /* border: 1px solid red; */
     margin: 0;
+    font-family: 'Roboto';
 
 }
 
 .header{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     background-color: #1F2937;
     color: #F9FAF8;
@@ -14,24 +15,83 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
 }
 .logo-box{
-    border: 1px solid red;
-
+    /* border: 1px solid red; */
+    padding: 10px 10px 10px 10px;
+    text-align: center;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .link-box{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    /* padding: 10px 10px 10px 10px; */
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .link{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     font-size: 18px;
     color: #e5e7eb;
+    /* padding: 10px 10px 10px 10px; */
+    margin: 10px;
+}
 
+
+.intro{
+    /* padding: 20px; */
+    /* border: 1px solid red; */
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+
+}
+.hero{
+    border: 1px solid red;
+    padding: 40px;
+}
+
+.hero-main{
+    /* border: 1px solid red; */
+    /* padding: 10px 10px 10px 10px; */
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    /* border: 1px solid red; */
+    /* padding: 1px; */
+
+}
+.hero-content{
+    font-size: 18px;
+    color: #e5e7eb;
+    /* border: 1px solid red; */
+
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+    /* border: 1px solid red; */
+
+}
+
+.signup{
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    margin: 10px 0 0 0;
+    color: #F9FAF8;
+    padding: 10px 35px 10px 35px;
+    border-radius: 10px;
+    
 }
