@@ -150,3 +150,33 @@
     font-weight: lighter;
 }
 
+.quote-box{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 70px;
+
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    /* border: 1px solid red; */
+    padding: 25px 25px 10px 25px;
+}
+
+.author{
+    font-weight: bolder;
+    /* border: 1px solid red; */
+    padding: 0 0 0 643px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+
+}
