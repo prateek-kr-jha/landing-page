@@ -102,3 +102,21 @@
     border-radius: 10px;
     
 }
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+
+}
+
+.illustration-cntnr{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    border: 1px solid red;
+
+}
+
