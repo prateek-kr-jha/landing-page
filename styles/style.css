@@ -1,14 +1,10 @@
 * {
-    /* box-sizing: border-box; */
-    /* border: 1px solid red; */
     margin: 0;
     font-family: 'Roboto';
 
 }
 
 .header{
-    /* border: 1px solid red; */
-
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
@@ -18,7 +14,6 @@
     padding: 20px;
 }
 .logo-box{
-    /* border: 1px solid red; */
     padding: 10px 10px 10px 10px;
     text-align: center;
     font-size: 24px;
@@ -26,9 +21,6 @@
 }
 
 .link-box{
-    /* border: 1px solid red; */
-    /* padding: 10px 10px 10px 10px; */
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,17 +28,13 @@
 }
 
 .link{
-    /* border: 1px solid red; */
     font-size: 18px;
     color: #e5e7eb;
-    /* padding: 10px 10px 10px 10px; */
     margin: 10px;
 }
 
 
 .intro{
-    /* padding: 20px; */
-    /* border: 1px solid red; */
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
@@ -56,39 +44,27 @@
 
 }
 .hero{
-    /* border: 1px solid red; */
     padding: 40px 205px 40px 40px;
 }
 
 .hero-main{
-    /* border: 1px solid red; */
-    /* padding: 10px 10px 10px 10px; */
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    /* border: 1px solid red; */
-    /* padding: 1px; */
-
 }
 .hero-content{
     font-size: 18px;
     color: #e5e7eb;
-    /* border: 1px solid red; */
-
 }
 
 .img-box{
     font-size: 18px;
     color: #e5e7eb;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 143px 180px 144px 180px;
-    background-color: rgb(100%, 100%, 100%, 0.4)
-    /* opacity: 0.2; */
-    
-
+    background-color: rgb(100%, 100%, 100%, 0.4);
 }
 
 .signup{
@@ -100,7 +76,6 @@
     color: #F9FAF8;
     padding: 10px 35px 10px 35px;
     border-radius: 10px;
-    
 }
 
 .info-box{
@@ -108,15 +83,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid red; */
-
 }
 
 .illustration-cntnr{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    /* border: 1px solid red; */
     justify-content: space-between;
     margin: 0 0 60px 0;
 
@@ -139,7 +111,6 @@
 }
 
 .illustration{
-    /* border: 1px solid red; */
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -156,9 +127,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid red; */
     padding: 70px;
-
 }
 
 .quote{
@@ -166,34 +135,28 @@
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
-    /* border: 1px solid red; */
     padding: 25px 25px 10px 25px;
 }
 
 .author{
     font-weight: bolder;
-    /* border: 1px solid red; */
     padding: 0 0 0 643px;
     font-size: 20px;
     display: flex;
     justify-content: flex-end;
     align-items: end;
-
 }
 
 .action-box{
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 100px;
     background-color:#F9FAF8;
-
 }
 
 .action{
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -202,8 +165,6 @@
     font-size: 20px;
     color: #F9FAF8;
     border-radius: 7px;
-
-
 }
 .action-text{
     margin: 50px 120px 50px 140px;
